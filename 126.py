@@ -10,6 +10,6 @@ for i in range(0,n):
             c=c+1
     if c<k:
         z.append(a[i])
-z=sorted(z)
 z=list(dict.fromkeys(z))
+z=sorted(z)
 print(*z)
