@@ -1,5 +1,5 @@
-ax=int(input())
-a=list(bin(ax)[::-1])
+bx=int(input())
+a=list(bin(bx)[::-1])
 c=1
 for i in a:
     if i=='1':
